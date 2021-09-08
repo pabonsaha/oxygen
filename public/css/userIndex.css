@@ -1,0 +1,135 @@
+*{
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+}
+
+.header
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 8vh;
+    padding: auto;
+    background-color: rgba(128, 128, 128, 0.472);
+
+}
+
+.header ul
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header ul li
+{
+    list-style: none;
+    margin: 10px 8px;
+
+}
+
+.header ul li a
+{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.header ul li a:hover
+{
+    color: gray;
+    transition: 0.3s ease-in-out;
+}
+
+.header ul li button
+{
+    background-color: greenyellow;
+    border: none;
+    border-radius: 10px;
+    padding: 11px 10px;
+    font-size: 16px;
+}
+
+.content
+{
+    background-color: cornsilk;
+    height: 92vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.075);
+    
+}
+
+.card
+{
+    background-color: rgba(205, 223, 255, 0.561);
+    border-radius: 10px;
+    padding: 15px;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card .name
+{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.507);
+    color: rgba(6, 175, 85, 0.637);
+}
+
+.card .price
+{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 8px 0px;
+    font-weight: 900;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.507);
+}
+
+.card ul
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card ul li
+{
+    list-style: none;
+    margin: 5px;
+    color: rgb(75, 75, 235);
+    margin-bottom: 10px;
+}
+
+.card .details a
+{
+    text-decoration: none;
+    padding: 6px 5px;
+    background-color: rgba(44, 44, 241, 0.746);
+    border-radius: 15px;
+    margin-top: 10px;
+    color: whitesmoke;
+    font-weight: 700;
+    display: block;
+    text-align: center;
+}
+
+.card .details a:hover
+{
+    background-color: rgba(81, 81, 236, 0.623);
+    transition: 0.2s ease-in;
+}
+
+
+
